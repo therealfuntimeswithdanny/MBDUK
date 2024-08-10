@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Me MBD</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<style>
+body{
+    background-color: #32c4f9;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 7;
+}
+
+/* style the header */
+.header{
+    background-color: #f37362;
+    padding: 20px;
+    text-align: center;
+}
+/* style the top nav */
+.topnav{
+    overflow: hidden;
+    background-color: #f3ce73;
+}
+
+/* style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color:#f37362;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change color on hover */
+.topnav a:hover {
+    background-color: #32c4f9;
+    color: #f37362;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side7 {
+  width: 66%;
+}
+
+/* Middle column */
+.column.middle7 {
+  width: 33%;
+}
+
+/* active */
+.active {
+    background-color: #2decb7;
+}
+
+/* card */
+.card{
+    background-color: #fe7362;
+    padding: 7px 10px;
+    margin-top: 3px;
+}
+
+/* style the floter */
+.floter{
+    background-color: #f3ce73;
+    padding: 20px;
+    text-align: center;
+}
+/* clear floats after the colums */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+</html>
+<body>
+    <div class="header">
+        <h1>About Danny</h1>
+        <h3>Learn About Me </h3>
+    </div>
+
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a class="active" href="about.html">About Me</a>
+            <a href="blog.html">Blog</a>
+            <a href="video.html">Videos</a>
+            <a href="photo.html">Photos</a>
+            <a href="info.html">Site Info</a>
+            <a href="cad.html">Cad (New)</a>
+            <a href="info.html" style="float:right"> V 1.4 (BETA)</a>
+            </div>
+
+            <div class="row">
+                <div class="column middle7">
+                    <div class="card">
+                        <iframe src="https://sk.pcpartpicker.com/b/4Phtt6" style="height:200px;width:500px;" title="Iframe Example"></iframe>
+
+                </div>
+                   </div>
+                
+                <div class="column side7">
+                    <div class="card">
+                     <h2>About Me</h2>
+                     <p>Hello i can see that you have found my litile website that i have coded my self.<br>My name is Danny that's why the site is called "Made By Danny"<br></p>
+                     <p>I have all was had a intrest in tech. At the age of 11 i build my own computer (specs to the left) that i named "Billy".<br> When i just truned 12 i became the ower of madebydanny.uk(Cloudflare) and stared codeing this website.</p>
+                </div>
+                    </div>
+                    <div class="floter">
+                        <h1>madebydanny.uk</h1>
+                        <h3> <a href="info.html">View site Files On Github</a> | Copyright 2024 MBD Team | Hosted in Cloudflare Pages</h3>
+                    </div> 
+</body>

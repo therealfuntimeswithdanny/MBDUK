@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Photos By Danny</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<style>
+body{
+    background-color: #32c4f9;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 7;
+}
+
+/* style the header */
+.header{
+    background-color: #fe7362;
+    padding: 20px;
+    text-align: center;
+}
+/* style the top nav */
+.topnav{
+    overflow: hidden;
+    background-color: #f3ce73;
+}
+
+/* style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #fe7362;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change color on hover */
+.topnav a:hover {
+    background-color: #32c4f9;
+    color: #fe7362;
+}
+
+
+
+/* active */
+.active {
+    background-color: #2decb7;
+}
+
+
+/* card */
+.card{
+    background-color: #fe7362;
+    padding: 7px 10px;
+    margin-top: 3px;
+}
+
+/* postion the image containor8= */
+.container{
+    position: relative;
+}
+
+/* hide the images */
+.mySlides {
+    display: none;
+}
+
+/* add pointer */
+.cursor {
+    cursor: pointer;
+}
+
+/* next and prev buttens */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:#2decb7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* postion */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* on hover */
+.prev:hover,
+.next:hover {
+    background-color: #fe7362;
+}
+
+/* number text */
+.numbertext {
+    color: #2decb7;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* container */
+.caption-container {
+    text-align: center;
+    background-color: #f3ce73;
+    padding: 2px 16px;
+    color: #fe7362;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* six colums */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* add tramparency */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  -ms-flex: 33%; /* IE 10 */
+  flex: 33%;
+  padding: 4px 4px;
+}
+
+.column2 {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+/* style the floter */
+.floter{
+    background-color: #f3ce73;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* clear floats after the colums */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+</style>
+</head>
+</html>
+<body>
+
+    <div class="header">
+        <h1>Photos By Danny</h1>
+        <h3> All photos shoot with a Nikon cameras have a  DISCLAMER: Nikon has no relation with MBD at all.</h3>
+    </div>
+
+        <div class="topnav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="blog.html">Blog</a>
+            <a href="video.html">Videos</a>
+            <a class="active" href="photo.html">Photos</a>
+            <a href="info.html">Site Info</a>
+            <a href="info.html" style="float:right"> V 1.4 </a>
+        </div>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column1">
+    <img src="/Photos/DSC_2753.JPG" style="width:100%">
+    <img src="/Photos/DSC_3690.JPG" style="width:100%">
+    <img src="/Photos/DSC_3692.JPG" style="width:100%">
+    <img src="/Photos/DSC_3768.JPG" style="width:100%">
+    <img src="/Photos/DSC_3775.JPG" style="width:100%">
+  </div>
+  <div class="column1">
+    <img src="/Photos/DSC_2868.JPG" style="width:100%">
+    <img src="/Photos/DSC_3685.JPG" style="width:100%">
+    <img src="/Photos/DSC_3720_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_3794.JPG" style="width:100%">
+    <img src="/Photos/DSC_3798.JPG" style="width:100%">
+  </div>  
+  <div class="column1">
+    <img src="/Photos/DSC_2754.JPG" style="width:100%">
+    <img src="/Photos/DSC_3704.JPG" style="width:100%">
+    <img src="/Photos/DSC_3766.JPG" style="width:100%">
+    <img src="/Photos/DSC_3772.JPG" style="width:100%">
+
+  </div>
+</div>
+<div class="row"> 
+  <div class="column2">
+    <img src="/Photos/DSC_3969.JPG" style="width:100%">
+    <img src="/Photos/DSC_4009_02.JPG" style="width:100%">
+    <img src="/Photos/DSC_4027_01_01.JPG" style="width:100%">
+  </div>
+  <div class="column2">
+    <img src="/Photos/DSC_3980_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_3997_02.JPG" style="width:100%">
+    <img src="/Photos/DSC_4029.JPG" style="width:100%">
+    <img src="/Photos/DSC_4090.JPG" style="width:100%">
+  
+  </div>  
+  <div class="column2">
+    <img src="/Photos/DSC_3982_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_4018_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_4030.JPG" style="width:100%">
+    <img src="/Photos/DSC_4093_01.JPG" style="width:100%">
+
+  </div>
+  <div class="column2">
+    <img src="/Photos/DSC_3985_02.JPG" style="width:100%">
+    <img src="/Photos/DSC_4019_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_4020.JPG" style="width:100%">
+    <img src="/Photos/DSC_4089_01.JPG" style="width:100%">
+    <img src="/Photos/DSC_4102_01.JPG" style="width:100%">
+  
+  </div>
+</div>
+
+
+<div class="container">
+    <div class="mySlides">
+        <div class="numbertext"> 1/6</div>
+        <img src="/Photos/DSC_0164.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext"> 2/6</div>
+        <img src="/Photos/DSC_2018.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext"> 3/6</div>
+        <img src="/Photos/DSC_1266.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext"> 4/6</div>
+        <img src="/Photos/DSC_2024.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext"> 5/6</div>
+        <img src="/Photos/DSC_2099.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+        <div class="numbertext"> 6/6</div>
+        <img src="/Photos/DSC_2685-01.jpeg" style="width:100%">
+    </div>
+</div>
+
+
+<div class="caption-container">
+    <p id="caption"></p>
+</div>
+
+<div class="row">
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_0164.JPG" style="width:100%" onclick="currentSlide(1)" alt="Yellow Blub">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_2018.JPG" style="width:100%" onclick="currentSlide(2)" alt="Beach">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_1266.JPG" style="width:100%" onclick="currentSlide(3)" alt="Water Bird">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_2024.JPG" style="width:100%" onclick="currentSlide(4)" alt="Sand Dunes">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_2099.JPG" style="width:100%" onclick="currentSlide(5)" alt="Red + Yellow">
+    </div>
+    <div class="column">
+        <img class="demo cursor" src="/Photos/DSC_2685-01.JPEG" style="width:100%" onclick="currentSlide(6)" alt="Pink Flower">
+    </div>
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #fe7362;
+}
+
+div.gallery:hover {
+  border: 3px solid #2decb7;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Photos/DSC_2119.JPG">
+      <img src="/Photos/DSC_2119.JPG" alt="Server Side Error" width="600" height="400">
+    </a>
+    <div class="desc">Date Shot: 4/12/2024  Camera: Nikon D3100</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/Photos/DSC_2097.JPG">
+      <img src="/Photos/DSC_2097.JPG" alt="Server Side Error" width="600" height="400">
+    </a>
+    <div class="desc">Date Shot: 4/11/2024 Camera: Nikon D3100</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/Photos/DSC_2213.JPG">
+      <img src="/Photos/DSC_2213.JPG" alt="Server Side Error" width="600" height="400">
+    </a>
+    <div class="desc">Date Shot: 5/25/2024 Camera: Nikon D3100</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/Photos/20240511_180202849_iOS.jpg">
+      <img src="/Photos/20240511_180202849_iOS.jpg" alt="Server Side Error" width="600" height="400">
+    </a>
+    <div class="desc">Date Shot: 5/11/2024 Cmaera: iPhone 14 </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+</body>
+</html>
+
+
+<body>
+<html>
+<p></p>
+<div class="floter">
+  <div class="card">
+   <h1>More Photos Coming</h1>
+  </div>
+</div>
+<P></P>
+
+
+    <div class="floter">
+        <h1>madebydanny.uk</h1>
+        <h3> <a href="info.html">View site Files On Github</a> | Copyright 2024 MBD Team | Hosted in Cloudflare Pages</h3>
+    </div>
+
+    </body>
+    </html>
