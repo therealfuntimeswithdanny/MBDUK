@@ -239,7 +239,7 @@ div.card:hover {
         <h3> A small website Made by Danny with a twist.</h3>
     </div>
 
-        <div class="topnav">
+        <div class="topnav" id=myTopnav>
             <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
             <a href="about.html"><i class="fa fa-fw fa-users"></i>About Me</a>
             <a href="blog.html"><i class="fa fa-fw fa-newspaper"></i>Blog</a>
@@ -249,6 +249,8 @@ div.card:hover {
             <a href="cad.html"><i class="fa fa-fw fa-cube"></i>Cad</a>
             <a href="music.html"><i class="fa fa-fw fa-music"></i>Music</a>
             <a href="music.html"><i class="fa-brands fa-fw fa-slideshare"></i>PPTX</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
 
             </a>
             </div>
@@ -395,15 +397,16 @@ div.card:hover {
         <h3> Made in VS Code</a> | Copyright 2024 MBD Team | Hosted in Cloudflare Pages</h3>
     </div>
     
- <script>
-    function myFunction() {
-         var x = document.getElementById("myTopnav");
-         if (x.className === "topnav") {
-         x.className += " responsive";
-        } else {
-          x.className = "topnav";
-         }
-     }
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 </script>
+    
 </body>
 </html>
