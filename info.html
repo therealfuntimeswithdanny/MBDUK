@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <title>Site Info Made By Danny</title>
-    <link rel="icon" type="image/x-icon" href="icon.png">
-    <meta charset="utf-8">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1">
-    <style>
-    body{
-        background-color: #32c4f9;
-    }
-    *{
-        box-sizing: border-box;
-    }
-    
-    body{
-        margin: 7;
-    }
-    
-    /* style the header */
-    .header{
-        background-color: #fe7362;
-        padding: 20px;
-        text-align: center;
-    }
-    /* style the top nav */
-    .topnav{
-        overflow: hidden;
-        background-color: #f3ce73;
-    }
-    
-    /* style the topnav links */
-    .topnav a {
-        float: left;
-        display: block;
-        color: #fe7362;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    /* active */
+<head>
+<title> Info about madebydanny.uk</title>
+<link rel="icon" type="image/x-icon" href="icon.png">
+<meta charset="utf-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
+<style>
+body{
+    background-color: #32c4f9;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 7;
+}
+
+/* style the header */
+.header{
+    background-color: #f37362;
+    padding: 20px;
+    text-align: center;
+}
+/* style the top nav */
+.topnav{
+    overflow: hidden;
+    background-color: #f3ce73;
+}
+
+/* style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color:#f37362;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change color on hover */
+.topnav a:hover {
+    background-color: #32c4f9;
+    color: #f37362;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side7 {
+  width: 66%;
+}
+
+/* Middle column */
+.column.middle7 {
+  width: 33%;
+}
+
+/* active */
 .active {
     background-color: #2decb7;
 }
-.topnav input[type=text] {
-  float: left;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  border: none;
-  font-size: 17px;
-}
-
-    /* change color on hover */
-    .topnav a:hover {
-        background-color: #32c4f9;
-        color: #fe7362;
-    }
 
 /* card */
 .card{
@@ -67,122 +74,74 @@
     margin-top: 3px;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  text-align: center;
+/* style the floter */
+.floter{
+    background-color: #f3ce73;
+    padding: 20px;
+    text-align: center;
+}
+/* clear floats after the colums */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-/* Left and right column */
-.column.side7 {
-  width: 35%;
+/* layout */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
 }
 
-/* Middle column */
-.column.left7 {
-  width: 30%;
-}
-
-table {
-  border-collapse: collapse;
-  border: 1px solid #ddd;
-  width: 100%;
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even){background-color: #2decb7}
-
-th {
-  background-color: #f3ce73;
-  color: white;
-}
-</style>    
+</style>
+</head>
+</html>
 <body>
-
     <div class="header">
-        <h1>Site Info </h1>
+        <h1>About madebydanny.uk</h1>
+        <h3></h3>
     </div>
 
-        <div class="topnav">
-            <a href="search.html">Search</a>
-            <a href="home.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="blog.html">Blog</a>
-            <a href="video.html">Videos</a>
-            <a href="photo.html">Photos</a>
-            <a class="active" href="info.html">Site Info</a>
-            <a href="cad.html">Cad (New)</a>
-            <a class="active" href="info.html" style="float:right"> V 1.3 (BETA)</a>
-            </div>
-            <div class="row"> 
-                <div class="column side7">
+    <div class="topnav">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="about.html"><i class="fa fa-fw fa-users"></i>About Me</a>
+        <a href="blog.html"><i class="fa fa-fw fa-newspaper"></i>Blog</a>
+        <a href="video.html"><i class="fa fa-fw fa-video"></i>Videos</a>
+        <a href="photo.html"><i class="fa fa-fw fa-photo"></i>Photos</a>
+        <a class="active" href="info.html"><i class="fa fa-fw fa-info"></i>Site Info</a>
+        <a href="cad.html"><i class="fa fa-fw fa-cube"></i>Cad</a>
+        <a href="music.html"><i class="fa fa-fw fa-music"></i>Music</a>
+        <a href="pptx.html"><i class="fa-brands fa-fw fa-slideshare"></i>PPTX</a>
+        <a href="info.html" style="float: right;"><i class="fa fa-fw fa-bars"></i> More Sites</a>
+       
+
+        </a>
+        </div>
+
+            <div class="row">
+                <div class="column middle7">
                     <div class="card">
-                         <h1>Cloudflare Registrar Info</h1>
-                         <h3><a href="https://whois.domaintools.com/madebydanny.uk">Source whoisdomaintools</a></h3>
-                         <p> Date 6/20/24<br> 	41 days old<br>
-                            Created on 2024-05-10<br>
+                        <h1> V 1.8</h1>
+                        <h3>Realse Date (8/17/2024)</h3>
+                        <h3>Realse stable</h3>
+                        <h2>Domain Info from Whois Domaintools</h2>
+                        <p> Domain: madebydanny.uk<br>Created on 2024-05-10<br>
                             Expires on 2025-05-10<br>
                             Updated on 2024-05-10</p>
 
                 </div>
-            </div>
-            <div class="column side7">
-                <div class="card">
-                    <h1>Legal</h1>
-                    <h7>Terms</h7>
-                    <h2>By visting this web site you agree to the following</h2>
-                    <p>Your ip address is svaed to a Cloudflare Pages servers. </p>
-                    <p>That embed code can use data form other websites. </p>
+                   </div>
+                
+                <div class="column side7">
+                    <div class="card">
+                     <h2> madebydanny.uk Site Info</h2>
+                     <h3><br>madebydanny.uk is hosted in Cloudflare. Orther domains conected as of the following blog.madebydanny.uk | game.madebydanny.uk<br></h3>
+                     <p><br>Daniel Morrisey hass rights to all domains with madebydanny.uk in them as listed bellow. <br>#1 madebydanny.uk<br>#2 blog.madebydanny.uk<br>#3 game.madebydanny.uk</p>
                 </div>
-            </div>
-            <div class="column left7">
-                <div class="card">
-                    <h1>Side Code</h1>
-                    <h3><a href="https://whois.domaintools.com/madebydanny.uk">View on github</a></h3>
-                    <h2>Github code</h2>
-                    <p>All my code for this website can be viewed on Github for free.</p>
-                </div>
-            </div>
-            <div class="cloumn">
-                <div class="card">
-                    <table>
-                        <tr>
-                          <th>V 1.3</th>
-                          <th>Tinkercad and Printables</th>
-                          <th>Discord widgets</th>
-                        </tr>
-                        <tr>
-                          <td>V1.4</td>
-                          <td>Site Search</td>
-                          <td>YouTube Post</td>
-                        </tr>
-                        <tr>
-                          <td>V1.5</td>
-                          <td>Scroll Bar</td>
-                          <td>My Products</td>
-                        </tr>
-                        <tr>
-                          <td>V1.6</td>
-                          <td>Link in Same Page</td>
-                          <td>$300</td>
-                        </tr>
-                        <tr>
-                          <td>Cleveland</td>
-                          <td>Brown</td>
-                          <td>$250</td>
-                      </tr>
-                      </table>
-                      
-                </div>
-            </div>
-        </div>
-
-
-              
-
-</html>
+                    </div>
+             <div class="floter">
+                        <h1>madebydanny.uk</h1>
+                        <h3> <a href="https://github.com/therealfuntimeswithdanny/myweb/tree/main">View site Files On Github</a> | Copyright 2024 MBD Team | Hosted in Github Pages</h3>
+             </div> 
+</body>
