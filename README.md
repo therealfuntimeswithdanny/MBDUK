@@ -7,7 +7,8 @@ Linked social media
 2.	Discord 
 3.	Twitch
 4.	Wix Spaces
-5.	Spotify 
+5.	Spotify
+6.	
 Finish the following pages
  
 1.	Cad
