@@ -1,6 +1,7 @@
 V 1.8 Is Coming Soon
 Release Date Is Set For 9/1/2024
 This Up Date Will Have The Following
+
 Linked social media 
 1.	YouTube 
 2.	Discord 
