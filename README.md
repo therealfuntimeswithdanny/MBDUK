@@ -1,18 +1,15 @@
-V 1.8 Is Coming Soon
-Release Date Is Set For 9/1/2024
-This Up Date Will Have The Following
+# MBDUK
+The stable version of madebydanny.uk with a whole redesign.
+# Basic Info
+This site will have 
+#1 CSS for Styleing HTML files
+#2 HTML files for for the webpages
+# What's new
+#1 New page layout <br>
+#2 Faster loading times now powerd by MBD CDN <br>
+#3 More mobile frindly
 
-Linked social media 
-1.	YouTube 
-2.	Discord 
-3.	Twitch
-4.	Wix Spaces
-5.	Spotify
-6.	
-Finish the following pages
- 
-1.	Cad
-Add The Following 
-1.	Photo Album Downloading
-2.	 Add Cad, MBD PPTX and Music to Index.html
+# Plans
+No plas yet as the site is still in beta
+
 
