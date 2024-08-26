@@ -1,0 +1,15 @@
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    /* Other styling properties */
+  }
+  
+  #myUL {
+    /* Remove default list styling */
+    /* Other styling properties */
+  }
+  
+  #myUL li a {
+    /* Styling for list items */
+    /* Other styling properties */
+  }
+  

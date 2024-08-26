@@ -1,0 +1,19 @@
+CACHE MANIFEST
+CACHE:
+#HTML pages
+index.html
+blog.html
+info.html
+search.html
+#CSS Style pages
+/CSS/index.CSS
+/CSS/blog.CSS
+/CSS/info.CSS
+/CSS/search.CSS
+/CSS/offline.css
+
+FALLBACK:
+offline.html
+
+NETWROK
+*
