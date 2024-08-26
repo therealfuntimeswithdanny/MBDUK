@@ -1,15 +1,22 @@
 #myInput {
-    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-    /* Other styling properties */
+  background-color: #fe7362;
+  color: #32c4f9;
   }
   
   #myUL {
-    /* Remove default list styling */
-    /* Other styling properties */
+    overflow: hidden;
+    background-color: #f3ce73;
+    width: auto;
+    color: #fe7362;
+}
+  
+  #myUL li :hover {
+    background-color: #2decb7;
+    width: auto;
+    overflow: hidden;
+    padding: 10px, 10px, 10px, 10px;
   }
   
-  #myUL li a {
-    /* Styling for list items */
-    /* Other styling properties */
-  }
-  
+body{
+  background-color: #32c4f9;
+}
