@@ -1,0 +1,238 @@
+body{
+    background-color: #32c4f9;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 7;
+}
+
+/* style the header */
+.header{
+    background-color: #fe7362;
+    padding: 20px;
+    text-align: center;
+}
+/* style the top nav */
+.topnav{
+    overflow: hidden;
+    background-color: #f3ce73;
+}
+
+/* style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #fe7362;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change color on hover */
+.topnav a:hover {
+    background-color: #32c4f9;
+    color: #fe7362;
+}
+
+
+
+/* active */
+.active {
+    background-color: #2decb7;
+}
+
+
+/* card */
+.card{
+    background-color: #fe7362;
+    padding: 7px 10px;
+    margin-top: 3px;
+}
+
+/* postion the image containor8= */
+.container{
+    position: relative;
+}
+
+/* hide the images */
+.mySlides {
+    display: none;
+}
+
+/* add pointer */
+.cursor {
+    cursor: pointer;
+}
+
+/* next and prev buttens */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:#2decb7;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* postion */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* on hover */
+.prev:hover,
+.next:hover {
+    background-color: #fe7362;
+}
+
+/* number text */
+.numbertext {
+    color: #2decb7;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* container */
+.caption-container {
+    text-align: center;
+    background-color: #f3ce73;
+    padding: 2px 16px;
+    color: #fe7362;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* six colums */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* add tramparency */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  -ms-flex: 33%; /* IE 10 */
+  flex: 33%;
+  padding: 4px 4px;
+}
+
+.column2 {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+/* style the floter */
+.floter{
+    background-color: #f3ce73;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* clear floats after the colums */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+div.gallery {
+    border: 1px solid #fe7362;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #2decb7;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
