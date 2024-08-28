@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html manifest="cache.manifest"
 <html lang="en">
 <head>
 <title>Photos By Danny</title>
@@ -8,15 +9,25 @@
 <script src="https://kit.fontawesome.com/0ca27f8db1.js" crossorigin="anonymous"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT332PH988"></script>
 <link rel="stylesheet" href="/CSS/photo.css">
-
+<script src="/Javascript/madebydanny.uk.js"></script>
 </style>
 </head>
 </html>
 <body>
+  <div id="offline-popup" class="popup">
+    <h3>You are currently offline.</h3>
+    <p>If you allowed this site to save data to your drive<br> you may view the following pages.<br></p>
+    <p> Home | About Me<br>Blog Post can't be viewed becuase they require the internet.</p>
+    <button onclick="closePopup()">Close</button>
+</div>
+
 
     <div class="header">
         <h1>Photos By Danny</h1>
         <h3> All photos shoot with a Nikon cameras have a  DISCLAMER: Nikon has no relation with MBD at all.</h3>
+    </div>
+    <div id="loading-bar-container">
+      <div id="loading-bar"></div>
     </div>
     <div class="topnav">
       <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
@@ -28,8 +39,7 @@
       <a href="cad.html"><i class="fa fa-fw fa-cube"></i>Cad</a>
       <a href="music.html"><i class="fa fa-fw fa-music"></i>Music</a>
       <a href="pptx.html"><i class="fa-brands fa-fw fa-slideshare"></i>PPTX</a>
-      <a href="info.html" style="float: right;"><i class="fa fa-fw fa-bars"></i> More Sites</a>
-      <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i>Search (BETA)</a>
+      <a href="search.html" style="float: right;"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
      
 
       </a>

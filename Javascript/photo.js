@@ -28,3 +28,15 @@ function four() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  var loadingBar = document.getElementById('loading-bar');
+  var width = 0;
+  var interval = setInterval(function() {
+      if (width >= 100) {
+          clearInterval(interval);
+      } else {
+          width++;
+          loadingBar.style.width = width + '%';
+      }
+  }, 30); // Adjust the speed of the loading bar by changing the interval time
+});

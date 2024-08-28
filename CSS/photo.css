@@ -286,3 +286,37 @@ div.gallery {
     background-color: #2decb7;
   }
   
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #2decb7;
+    border: 1px solid #fe7362;
+    box-shadow: 0 0 10px #f3ce73(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup p {
+    margin: 0 0 10px;
+}
+
+.popup button {
+    padding: 5px 10px;
+}
+#loading-bar-container {
+  width: 100%;
+  background-color: #f3ce73;
+  border: 1px solid #fe7362;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#loading-bar {
+  width: 0;
+  height: 5px;
+  background-color: #2decb7;
+}

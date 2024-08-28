@@ -1,6 +1,13 @@
 <!DOCTYPE html>
+<html manifest="cache.manifest"
 <link rel="stylesheet" href="/CSS/search.css">
 <body>
+  <div id="offline-popup" class="popup">
+    <h3>You are currently offline.</h3>
+    <p>If you allowed this site to save data to your drive<br> you may view the following pages.<br></p>
+    <p> Home | About Me<br>Blog Post can't be viewed becuase they require the internet.</p>
+    <button onclick="closePopup()">Close</button>
+</div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search madebydanny.uk">
 <ul id="myUL">
   <h5>List is in order form oldest-newest</h5>
@@ -20,4 +27,5 @@
   <!-- Add more list items here -->
 </ul>
 <script src="/Javascript/search.js"></script>
+<script src="/Javascript/madebydanny.uk.js"></script>
 </body>
