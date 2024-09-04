@@ -5,11 +5,9 @@ This site will have
 #1 CSS for Styleing HTML files
 #2 HTML files for for the webpages
 # What's new
-#1 New page layout <br>
-#2 Faster loading times now powerd by MBD CDN <br>
-#3 More mobile frindly
+#1 Search<br>#2 
 
 # Plans
-No plas yet as the site is still in beta
+Are plans are to add Dark/Light Mode to the site and insert Google Translate API
 
 
