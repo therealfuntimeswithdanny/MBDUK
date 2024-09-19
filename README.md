@@ -11,7 +11,7 @@ Are plans are to add the following
 - [x] Search
 - [x] Light/Dark Mode
 - [x] Google Translate 
-- [] High Contrast Mode
+- [ ] High Contrast Mode
 
 
 
