@@ -8,6 +8,10 @@ This site will have
 
 # Plans
 Are plans are to add the following 
-Dark/Light Mode to the site and insert Google Translate API<br>And Hight Constant mode
+- [x] Search
+- [x] Light/Dark Mode
+- [x] Google Translate 
+- [] High Contrast Mode
+
 
 
