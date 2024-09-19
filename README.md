@@ -7,6 +7,11 @@ This site will have
 #1 Search<br>#2 New Styles
 
 # Plans
-Are plans are to add Dark/Light Mode to the site and insert Google Translate API<br>And Hight Constant mode
+Are plans are to add the following 
+- [x] Search
+- [x] Light/Dark Mode
+- [x] Google Translate 
+- [ ] High Contrast Mode
+
 
 
