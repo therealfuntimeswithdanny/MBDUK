@@ -4,7 +4,7 @@ The offical Made By Danny | MBD Team Website Made By Danny
 This site will have 
 
 # What's new
-#1 Search<br>#2 New Styles
+#1 New Navbar layout
 
 # Plans
 Are plans are to add the following 
@@ -12,6 +12,7 @@ Are plans are to add the following
 - [x] Light/Dark Mode
 - [x] Google Translate 
 - [ ] High Contrast Mode
+- [x] Add MBD CDN
 
 
 
